@@ -16,7 +16,10 @@
 
         <label for="nama">Full Name</label><br><br>
         <input type="text" name="nama" id="nama" size="50" placeholder="Enter full name" required>
-        <input type="hidden" id="custId" name="custId" value="3487">
+        <br><br><br>
+
+        <label for="quantity">Your Age</label><br><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="100">
         <br><br><br>
 
         <label for="address">Address</label><br><br>
@@ -45,12 +48,13 @@
         <input type="password" id="pwd" name="pwd">
         <br><br><br>
 
-        <button type="sumbit">SUMBIT</button>
+        <input type="hidden" name="tarikh" value="12 Oktober 2021">
+        <button type="submit">SUBMIT</button>
         <button type="reset">RESET</button>
         <br><br><br>
 
-        <label for="file">Select a file</label>
-        <input type="file" id="file" name="file">
+        <label for="myfile">Select a file</label>
+        <input type="file" id="file" name="myfile">
     </form>
 
 </body>
